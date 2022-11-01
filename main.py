@@ -2,7 +2,7 @@ from os import close, read, times, write
 from auth import *
 from encrypt import *
 from datetime import *
-
+# Permet de détecter si il y a eu une intrusion
 # Permet de détecter si il y a eu une intrusion
 intrusionValide = open("intrusion.txt", "r")
 if intrusionValide.read() == "Intrusion" :
